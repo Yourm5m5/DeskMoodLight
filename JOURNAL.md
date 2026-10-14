@@ -1,4 +1,4 @@
-# Journal: Day 1 – 15 Oct 2026: Research, Scoping & Concept Planning
+# Journal: Day 1 – 15 Oct 2026: Research
 
 **Time spent:** ~6 hours
 
