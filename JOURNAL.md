@@ -9,6 +9,8 @@
 - Sketched out initial design concepts for a modern geometric pillar enclosure in Fusion 360
 - Drafted the base ESPHome YAML configuration for the WS2812B strip and planned out GPIO pin assignments on the ESP32
 
+<img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/bbae0e38-edc4-4ea4-94aa-2237cb67d6f4" />
+
 ## Design Decisions
 | Decision | Why |
 |---|---|
@@ -16,15 +18,11 @@
 | **60 LEDs/m density** | Provides enough resolution for fluid animations without overloading power draw |
 | **ESP32 microcontroller** | Enables direct local integration with Home Assistant over Wi-Fi without needing extra bridge hardware |
 
-## Challenges & Learnings
+## Problems
 - High-density LED strips draw significant current at full white brightness; planning for proper 5V power distribution is essential to prevent voltage drop and color shifting.
 - Learned about light scattering physics in 3D-printed translucent materials to optimize shell wall thickness.
 
-## Visual Log / Images
-![Concept Sketch](https://via.placeholder.com/800x450.png?text=DeskMoodLight+Concept+Sketch)
-![LED Diffusion Test](https://via.placeholder.com/800x450.png?text=Diffusion+Material+Research)
-
-## Action Items & Next Steps
+## Next Steps
 - [ ] Calculate exact strip length and power supply amperage requirements based on final physical dimensions
 - [ ] Test different infill patterns in slicer software to see how they impact light transmission
 - [ ] Model the main geometric outer shell and internal LED spine in Fusion 360
