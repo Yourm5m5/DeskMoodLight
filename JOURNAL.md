@@ -1,6 +1,6 @@
 # Journal: Day 1 – 15 Oct 2026: Research
 
-**Time spent:** ~6 hours
+**Time spent:** ~2 hours
 
 ### What I Did
 - Researched LED diffusion techniques in 3D printing to figure out how to completely eliminate visible LED "hotspots" (decided on a 3 mm wall thickness with translucent white PETG and an internal reflective core)
